@@ -14,6 +14,8 @@
 		CFB2F1981EA8E85E00228C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB2F1961EA8E85E00228C0A /* Main.storyboard */; };
 		CFB2F1A31EA8E85E00228C0A /* TestTableHeaderCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2F1A21EA8E85E00228C0A /* TestTableHeaderCellTests.m */; };
 		CFB2F1AE1EA8E85E00228C0A /* TestTableHeaderCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2F1AD1EA8E85E00228C0A /* TestTableHeaderCellUITests.m */; };
+		CFB2F1BD1EA9011400228C0A /* CustomTableColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2F1BC1EA9011400228C0A /* CustomTableColumn.m */; };
+		CFB2F1C01EA901E800228C0A /* CustomTableHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2F1BF1EA901E800228C0A /* CustomTableHeaderCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		CFB2F1A91EA8E85E00228C0A /* TestTableHeaderCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableHeaderCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB2F1AD1EA8E85E00228C0A /* TestTableHeaderCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableHeaderCellUITests.m; sourceTree = "<group>"; };
 		CFB2F1AF1EA8E85E00228C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB2F1BB1EA9011400228C0A /* CustomTableColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableColumn.h; sourceTree = "<group>"; };
+		CFB2F1BC1EA9011400228C0A /* CustomTableColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableColumn.m; sourceTree = "<group>"; };
+		CFB2F1BE1EA901E800228C0A /* CustomTableHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableHeaderCell.h; sourceTree = "<group>"; };
+		CFB2F1BF1EA901E800228C0A /* CustomTableHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableHeaderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 				CFB2F1961EA8E85E00228C0A /* Main.storyboard */,
 				CFB2F1991EA8E85E00228C0A /* Info.plist */,
 				CFB2F18E1EA8E85E00228C0A /* Supporting Files */,
+				CFB2F1BB1EA9011400228C0A /* CustomTableColumn.h */,
+				CFB2F1BC1EA9011400228C0A /* CustomTableColumn.m */,
+				CFB2F1BE1EA901E800228C0A /* CustomTableHeaderCell.h */,
+				CFB2F1BF1EA901E800228C0A /* CustomTableHeaderCell.m */,
 			);
 			path = TestTableHeaderCell;
 			sourceTree = "<group>";
@@ -274,7 +284,9 @@
 			files = (
 				CFB2F1931EA8E85E00228C0A /* ViewController.m in Sources */,
 				CFB2F1901EA8E85E00228C0A /* main.m in Sources */,
+				CFB2F1C01EA901E800228C0A /* CustomTableHeaderCell.m in Sources */,
 				CFB2F18D1EA8E85E00228C0A /* AppDelegate.m in Sources */,
+				CFB2F1BD1EA9011400228C0A /* CustomTableColumn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
