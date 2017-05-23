@@ -18,10 +18,21 @@
     self.tableView.dataSource = self;
     
     CustomTableHeaderCell *headerCell = [[CustomTableHeaderCell alloc] init];
-    headerCell.stringValue = @"Header title";
+    headerCell.stringValue = @"Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. Header title. ";
     self.tableView.tableColumns[0].headerCell = headerCell;
-    // optional
-//    [self.tableView.headerView setNeedsLayout:YES];
+    
+    NSTableHeaderView *header = self.tableView.headerView;
+    NSRect rect = header.frame;
+    header.frame = NSMakeRect(rect.origin.x, rect.origin.y, rect.size.width, 142);
+    header.layer.backgroundColor = [NSColor grayColor].CGColor;
+//    
+//    [header setNeedsLayout:YES];
+//    [header setNeedsDisplay:YES];
+//    [header layoutSubtreeIfNeeded];
+//    
+//    NSTableColumn *tableColumn = self.tableView.tableColumns[0];
+    
+    
 }
 
 #pragma mark - NSTableViewDelegate, NSTableViewDataSource
