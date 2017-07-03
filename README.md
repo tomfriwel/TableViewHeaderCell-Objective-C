@@ -11,4 +11,4 @@
 
 #### Related image
 
-[](https://cloud.githubusercontent.com/assets/11268235/26354550/92e3bc0c-3ff7-11e7-8bce-6f641876978f.png)
+<img src="https://cloud.githubusercontent.com/assets/11268235/26354550/92e3bc0c-3ff7-11e7-8bce-6f641876978f.png" width="300" />
